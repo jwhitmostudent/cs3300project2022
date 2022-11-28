@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<p> 
+<!DOCTYPE html>
+<style>
+  .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.aDiv {
+  border: 5px outset red; 
+  background-color: lightblue; 
+  text-align: right; 
+}
+.bDiv {
+  border: 5px outset green; 
+  background-color: purple; 
+  text-align: left; 
+}
+</style>
+<!-- Color the headings-->
+<h2 style="color:Tomato;">Name: Jackson Whitmore</h2>
+<h2 style="color:Tomato;">Date: 11/2/2022</h2>
+<!-- Color the subheadings-->
+<h4 style="color:DodgerBlue;">CS 3300 Homework 04</h4>
+<h4 style="color:DodgerBlue;">Saas</h4>
+<!-- Paragraph (at least 3 sentences) explaining Saas -->
+<!-- Separate Saas and Rails -->
+<div class="aDiv">
+<p>Software-as-a-service (SaaS)</p>
+<p>SaaS provides a complete software solution that you purchase on a pay-as-you-go basis from a cloud service provider.</p>
+<p>SaaS customers can dramatically lower costs; deploy, scale, and upgrade business solutions more quickly than maintaining on-premises systems and software; and predict total cost of ownership with greater accuracy.</p>
+<p>SaaS allows your organization to get quickly up and running with an app at minimal upfront cost.</p>
+<a href="https://www.oracle.com/applications/what-is-saas/">Web page explaining Saas</a>
+<!-- Paragraph (at least 3 sentences) explaining Saas -->
+<h3 style="color:MediumSeaGreen;">Advantages to saas</h3>
+<ol>
+  <li>Easily Deployable</li>
+<p>The ease of access and implementation of SaaS is one of the things that fascinate decision-makers.</p>
+  <li>Cost Reduction</li>
+<p>The use of a SaaS allows the reduction of costs with servers, which in addition to the cost still requires hours of maintenance and care by your IT staff.</p>
+  <li>High Scalability</li>
+<p>SaaS allows you to multiply access according to the needs of the business rather than investing in software licenses and server capacities internally.
+The pay-as-you-go model allows organizations to transfer costs to an ongoing operating expense to facilitate budget management.</p>
+  <li>Access Anytime and Anywhere</li>
+<p>Through a browser and an internet connection, its users have easy access at any time, making this an important differential that allows more mobility, agility, and practicality for all employees inside and outside the business environment.</p>
+</ol>
+</div>
+<div class="bDiv">
+<!--Paragraph (at least 3 sentences) explaining what Rails is. -->
+<!-- Separate Saas and Rails -->
+<h3 style="color:MediumSeaGreen;">Rails</h3>
+<p>Ruby on Rails or also known as rails is a server-side web application development framework that is written in the Ruby programming language.</p>
+<p>Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages.</p>
+<p>It simplifies the creation process and gives you an abundance of tools to handle tasks for you.</p>
+ <!-- Customize the button -->
+ <button class="button button1" onclick="window.location.href='https://rubyonrails.org/';">
+      Webpage explaining Rails
+    </button>
+    <!-- List of 4 advantages for using Rails -->
+<h3 style="color:MediumSeaGreen;">Advantages to rails</h3>
+<h4 style="color:DodgerBlue;">Scalability</h4>
+<p>This term denotes the capability of an app to handle the raised load – tons of requests per minute sent by multiple visitors. In this regard, Shopify is a good example of RoR scalability.</p>
+<h4 style="color:DodgerBlue;">Built on Model-View-Controller (MVC) architecture:</h4>
+<p>In this architecture, a web application has three interconnected layers. The model houses codes that work on the application data. It centralizes the business logic of the application and the rules to manipulate the data.</p>
+<h4 style="color:DodgerBlue;">Secure</h4>
+<p>Some security measures are built within the framework and enabled by default. Using Ruby on Rails also means that following the secure development lifecycle, that may be a complicated security assurance method.
+Rails community actively works to spot and patch new vulnerabilities and the framework is well documented both officially and unofficially.</p>
+<h4 style="color:DodgerBlue;">Flexibility</h4>
+<p>Web applications use frontend and backend capabilities of Rails; these are simpler and easier to create, but the application needs to communicate with the server to load the webpage and can lack the immediate responsiveness to a user’s taps and selections as a result.</p>
+<h4 style="color:DodgerBlue;">Consistent</h4>
+<p>Developers follow standardized file storage and programming conventions that keep a project structured and readable. Additionally saves lots of time.</p>
+</div>
+</p>
+
+</body>
+</html>
